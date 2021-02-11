@@ -2,13 +2,36 @@ import React from "react";
 import MyNavbar from "./components/my-navbar/my-navbar.component";
 import MyCarousal from "./components/my-carousal/my-carousal.component";
 import TitleMessage from "./components/title-message/title-message.component";
+import About from "./pages/about/about.component";
+import Fade from "react-reveal/Fade";
+import Container from "react-bootstrap/Container";
+import { Parallax } from "react-parallax";
+import "./App.css";
 
-const App = () => {
+function App() {
   return (
-    <div className="App">
-      <MyNavbar/>
-      <MyCarousal/>
-      <TitleMessage/>
+    <div className="App" style={{ position: "relative" }}>
+      <MyCarousal />
+      <TitleMessage />
+      <MyNavbar />
+
+
+      <div>
+        <Parallax
+          blur={{ min: -30, max: 30 }}
+          bgImage={require("./assets/img/parallex/images.jpg")}
+          bgImageAlt=""
+          strength={-200}
+        >
+          <div>
+            <Container className="container-box rounded">
+              <Fade duration={500}>
+                <About />
+              </Fade>
+            </Container>
+          </div>
+        </Parallax>
+      </div>
     </div>
   );
 }
