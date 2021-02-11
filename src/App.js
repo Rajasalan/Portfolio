@@ -5,7 +5,7 @@ import TitleMessage from "./components/title-message/title-message.component";
 import About from "./pages/about/about.component";
 import Fade from "react-reveal/Fade";
 import Container from "react-bootstrap/Container";
-import { Parallax } from "react-parallax";
+import { Parallax} from 'react-parallax';
 import "./App.css";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
 
       <div>
         <Parallax
-          blur={{ min: -30, max: 30 }}
+           blur={{ min: -15, max: 15 }}
           bgImage={require("./assets/img/parallex/images.jpg")}
           bgImageAlt=""
           strength={-200}
