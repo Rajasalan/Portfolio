@@ -118,13 +118,13 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
               <UrlButton
-                  href="https://rajasalan.github.io/Pig-Game/"
+                  href=" https://rajasalan.github.io/Portfolio/"
                   target="_blank"
                 >
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/Rajasalan/Pig-Game"
+                  href="https://github.com/Rajasalan/Portfolio"
                   target="_blank"
                 >
                   SOURCE CODE
