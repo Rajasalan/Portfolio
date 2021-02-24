@@ -13,7 +13,7 @@ const MyTitleMessage = styled.h1`
     font-size: 1.25em;
   }
   div {
-    color: ${props => props.theme.textColor};
+    color: white;
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
     font-weight: 100;
     letter-spacing: 7px;
@@ -23,6 +23,7 @@ const MyTitleMessage = styled.h1`
     .sub {
       font-size: 27px;
       letter-spacing: 2px;
+      text-color:white;
     }
   }
 `;
@@ -35,13 +36,13 @@ const TitleMessage = () => (
           Hi, I am
           <br />
           <span>
-            <strong>Garland</strong>
+            <strong>Garland Rajasalan</strong>
           </span>
         </div>
         <div className="sub">
           <Typewriter
             options={{
-              strings: ["Web Developer", "Front-end Developer", "Learner"],
+              strings: [ "Front-end Developer", "Web Developer", "Learner"],
               autoStart: true,
               loop: true,
               delay: 50
