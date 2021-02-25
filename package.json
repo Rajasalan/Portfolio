@@ -1,6 +1,7 @@
 {
-  "homepage": "https://Rajasalan.github.io/Portfolio",
+
   "name": "protfolio",
+  "homepage": "https://Rajasalan.github.io/Portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

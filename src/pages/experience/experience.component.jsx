@@ -13,7 +13,7 @@ const Experience = () => {
         <Container>
           <Tilt options={{ max: 25 }}>
             <Card>
-              <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
+              <Card.Header className="d-flex justify-content-center flex-wrap">
                 <h1>Experience</h1>
               </Card.Header>
               <Card.Body className="d-flex justify-content-center flex-column">
@@ -30,7 +30,7 @@ const Experience = () => {
 
                     <br/>
                     <br/>
-                    <strong><p className="text-left"> EXPERIENCE SUMMARY </p></strong>
+                    <strong><span className="text-left"> EXPERIENCE SUMMARY </span></strong>
                     <ul className="text-left">
                       <li><strong>Developed &amp; enhanced</strong> web application.</li>
                       <li><strong>Handled</strong>  maintenance support for web applications.
